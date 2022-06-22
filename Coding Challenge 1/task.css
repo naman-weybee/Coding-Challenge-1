@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  background: rgb(248, 242, 232);
+  margin: 0;
+  font-family: "Poppins";
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+}
+
+.navbar {
+  background: #112b3b;
+}
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+}
+.navbar .container .logo {
+  margin-left: 3em;
+  padding-top: 1em;
+}
+.navbar .nav {
+  width: 61%;
+}
+.navbar .nav ul {
+  list-style: none;
+  text-align: center;
+  background: rgb(52, 50, 50);
+  font-size: 1.2em;
+  padding: 20px;
+  margin-top: 4em;
+  margin-bottom: 0%;
+  width: 40em;
+}
+.navbar .nav li {
+  display: inline;
+  padding-left: 1em;
+  padding: 10px;
+}
+.navbar .nav li:hover {
+  font-weight: bold;
+  background-color: black;
+}
+
+.hero {
+  display: block;
+  height: 17.8em;
+}
+.hero .container {
+  height: 17.8em;
+}
+.hero .mainpicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  width: auto;
+}
+.hero h1 {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  margin-top: -4em;
+  font-size: 2em;
+}
+.hero h1:hover {
+  font-weight: bold;
+}
+
+.contect-section {
+  display: flex;
+  margin-left: 5em;
+}
+.contect-section .container .contect-left {
+  width: auto;
+  text-align: left;
+  margin-left: 7em;
+}
+.contect-section .container .contect-left .family {
+  display: block;
+}
+.contect-section .container .contect-left h4 {
+  font-size: 1.2em;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+.contect-section .container .contect-left h5 {
+  font-size: 1.1em;
+}
+.contect-section .contect-right {
+  width: 50%;
+  margin-left: 5em;
+  margin-right: 12em;
+}
+.contect-section .contect-right .aerrow {
+  width: 5%;
+  margin-top: 1em;
+}
+.contect-section .contect-right .one {
+  background-image: linear-gradient(rgb(31, 98, 170), white);
+  text-align: left;
+  width: 36em;
+}
+.contect-section .contect-right .one .mainhead {
+  padding-top: 0.8em;
+  padding-left: 1em;
+  font-size: 2.5em;
+  color: white;
+  font-weight: bold;
+}
+.contect-section .contect-right .one .subhead {
+  margin-bottom: -1em;
+  padding-left: 1em;
+  width: 90%;
+  font-size: 1.7em;
+}
+.contect-section .contect-right .one .extra {
+  text-align: right;
+  padding-right: 2em;
+}
+.contect-section .contect-right .one .extra .button {
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 1em;
+  border-color: rgb(89, 182, 208);
+  margin-bottom: 0.7em;
+}
+.contect-section .contect-right .one .extra .button:hover {
+  font-weight: bold;
+}
+.contect-section .contect-right .two h5 {
+  font-size: 1.2em;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+.contect-section .contect-right .two .container {
+  display: flex;
+  margin-top: -1em;
+}
+.contect-section .contect-right .two .container .second {
+  padding-left: 1em;
+}
+.contect-section .contect-right .three h5 {
+  font-size: 1.2em;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+.contect-section .contect-right .three .container {
+  display: flex;
+  margin-top: -1em;
+}
+.contect-section .contect-right .three .container .third {
+  padding-left: 1em;
+}
+.contect-section .contect-right .four h5 {
+  font-size: 1.2em;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+.contect-section .contect-right .four .container {
+  display: flex;
+  margin-top: -1em;
+}
+.contect-section .contect-right .four .container .fourth {
+  padding-left: 1em;
+}
+.contect-section .contect-right .four .container .aerrow {
+  width: 10%;
+  margin-top: 1em;
+}
+.contect-section .contect-right .four .container .button {
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 0.3em;
+  border-color: rgb(89, 182, 208);
+  margin-bottom: 0.7em;
+}
+.contect-section .contect-right .four .container .button:hover {
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 1em;
+  height: 12em;
+  background: #112b3b;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .container .app {
+  margin-right: 8em;
+  width: 26em;
+  text-align: left;
+  margin-top: -2em;
+  justify-content: space-between;
+  margin-left: 7em;
+}
+.footer .container .app h6 {
+  color: white;
+  padding-left: 4.5em;
+  padding-top: 2em;
+  font-size: 1em;
+}
+.footer .container .app ul {
+  list-style: none;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 20px;
+  margin-top: -3em;
+  margin-bottom: 0;
+  width: 25em;
+  margin-left: -3em;
+}
+.footer .container .app li {
+  display: inline;
+  padding: 8px;
+}
+.footer .container .app li img {
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+.footer .container .app img {
+  width: 4em;
+}
+.footer .container .guide {
+  width: 15em;
+  padding-top: 1.5em;
+  margin-left: -5em;
+  margin-top: 1.7em;
+}
+.footer .container .guide img {
+  width: 8em;
+}
+.footer .container .signup {
+  margin-right: 10em;
+  margin-left: 0;
+  color: white;
+  font-size: 1em;
+  width: 35em;
+  margin-top: 1.3em;
+}
+.footer .container .signup h5 {
+  margin-bottom: -1.5em;
+}
+.footer .container .signup ul {
+  list-style: none;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 20px;
+  margin-top: -3em;
+  margin-bottom: 0;
+  width: 90%;
+  font-size: 1em;
+  margin-left: -2em;
+}
+.footer .container .signup li {
+  float: left;
+  padding: 10px;
+}/*# sourceMappingURL=task.css.map */
