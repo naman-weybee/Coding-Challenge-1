@@ -81,6 +81,9 @@ a:hover {
   text-align: left;
   margin-left: 7em;
 }
+.contect-section .container .contect-left .talks {
+  font-size: 1.2em;
+}
 .contect-section .container .contect-left .family {
   display: block;
 }
